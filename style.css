@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    @@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&family=Poppins:wght@300&display=swap');
+}
+body{
+    background-image:  url('https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.logo{
+    margin-left: 88%;
+    height: 40px;
+}
+h1{
+    font-size: 40px;
+    margin-left: 5px;
+    color: black;
+    background: #FFFFFF;
+    font-weight: 700;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+
+}
+
+h4 {
+    margin-left: 5px;
+    margin-top: 10px;
+    color: gray;
+}
+
+table{
+    margin-left: 22px;
+    width: 65%;
+    background-color: white;
+    border-collapse: collapse;
+    margin-top: 25px;
+    border: white;
+}
+
+#stats{
+    border-top: 2px solid rgb(212,210,210);
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 330%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: orangered;
+    border: 1px solid orangered;
+}
+
+td{
+    padding: 5px;
+
+}
+
+table,td,tr{
+    text-align: left;
+}
+#bowler{
+    color: grey;
+}
+#batsman {
+    color: rgb(75, 75, 173);
+    cursor: pointer;
+}
+#profile {
+    position: absolute;
+    animation: fade 5s 1 ease-out;
+    visibility: hidden;
+}
+@keyframes fade {
+     0% {
+      visibility: visible;
+}
+    100% {
+      visibility: hidden;
+    }
+}
+footer {
+    margin-top: 30px;
+    margin-left: 20px;
+  
+}  
+
+
+
+
+
+
+
+
